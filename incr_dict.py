@@ -4,8 +4,6 @@ def incr_dict(dct, iter):
 	for i in iter:
 		if type(curr_dct) is int:
 			raise Exception("Input is improperly formatted")
-			#break;
-		#print "current is ", curr_dct
 		if count == len(iter) - 1:
 			if i in curr_dct:
 				#if this key is in the dictionary, increment it
